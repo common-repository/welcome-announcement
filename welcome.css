@@ -1,0 +1,69 @@
+/* Usage styles */
+#welcome_veil{
+	display:none;
+	position:fixed;
+}
+
+#welcome_container {
+	display:none;
+	position:fixed;
+	z-index:5;
+	margin-right:auto;
+}
+
+#HTML_announcement {
+	display:none;
+	position:fixed;
+	z-index:6;
+	margin-right:auto;
+}
+
+#announcement {
+	display:none;
+	position:fixed;
+	z-index:6;
+	margin-right:auto;
+}
+
+/* Admin styles */
+.block{
+	clear:both;
+	margin-top:10px;
+	margin-bottom:30px;
+	padding-top:15px;
+	overflow:hidden;
+}
+	
+.field {
+	clear:both;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.field .label {
+	width:200px;
+	float:left;
+	margin:0px 30px 10px 5px;
+	font-weight:bolder;
+}
+.field .legend {
+	width:350px;
+	float:right;
+	margin:0px 15px 10px 20px;
+	font-size:0.8em;
+}
+
+.field .entry {
+	width:300px;
+	float:left;
+	margin-bottom:10px;
+}
+
+.button-primary {
+	clear:both;
+	float:right;
+	margin-bottom:7px;
+}
+
+.w_form_wrap{
+	margin-right:15px
+}
